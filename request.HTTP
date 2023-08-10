@@ -1,0 +1,13 @@
+@host = http://localhost:3000
+
+### Update post
+PUT {{host}}/posts/2
+Content-Type: application/json
+
+{
+    "titulo": "tem que atualizar",
+    "conteudo": "no front-end"
+}
+
+### Delete post
+DELETE {{host}}/posts/1
